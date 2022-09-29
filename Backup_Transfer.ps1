@@ -5,7 +5,6 @@
 $target = Read-host 'Entre o hostname da máquina de destino:'
 #Detectar se é C ou se é E
 $pathOrigem = 'C:\Backup'
-$folder='\Backup\'
 $pathDestino = '\\'+$target+'\c$'
 
 $net = new-object -ComObject WScript.Network
