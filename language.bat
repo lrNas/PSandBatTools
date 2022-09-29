@@ -1,0 +1,1 @@
+PowerShell Set-WinUserLanguageList -LanguageList  pt-BR -force
