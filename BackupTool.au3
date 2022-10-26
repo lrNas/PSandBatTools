@@ -192,8 +192,8 @@ Func drawStartForm()
 
 	;cria os inputs de texto
 	$Input1 = GUICtrlCreateInput("", 96, 72, 129, 21)
-	$Input2 = GUICtrlCreateInput("Administrator", 96, 120, 129, 21)
-	$Input3 = GUICtrlCreateInput("1Dois3456.", 96, 168, 129, 21,$ES_PASSWORD)
+	$Input2 = GUICtrlCreateInput("", 96, 120, 129, 21)
+	$Input3 = GUICtrlCreateInput("", 96, 168, 129, 21,$ES_PASSWORD)
 
 	;cria um botão para iniciar
 	$Button1 = GUICtrlCreateButton("Transferir", 152, 236, 75, 25)
