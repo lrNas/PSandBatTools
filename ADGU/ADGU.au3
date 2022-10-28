@@ -1,4 +1,23 @@
 #RequireAdmin
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Outfile_x64=ADGU.exe
+#AutoIt3Wrapper_Compression=4
+#AutoIt3Wrapper_UseX64=y
+#AutoIt3Wrapper_Res_Comment=Necessário possuir AD DS para utilizar a ferramenta
+#AutoIt3Wrapper_Res_Description=Ferramenta de UPDATE para relações de grupos de usuários AD
+#AutoIt3Wrapper_Res_Fileversion=1.0.0.3
+#AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
+#AutoIt3Wrapper_Res_ProductName=ADGU
+#AutoIt3Wrapper_Res_ProductVersion=1.0
+#AutoIt3Wrapper_Res_CompanyName=Github  @Lrnas
+#AutoIt3Wrapper_Res_LegalCopyright=Github  @Lrnas
+#AutoIt3Wrapper_Res_LegalTradeMarks=Github  @Lrnas
+#AutoIt3Wrapper_Res_SaveSource=y
+#AutoIt3Wrapper_Res_Language=1046
+#AutoIt3Wrapper_icon=shell32_42.ico
+#AutoIt3Wrapper_Res_requestedExecutionLevel=requireAdministrator
+#AutoIt3Wrapper_Add_Constants=y
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #include <Date.au3>
 #include <Crypt.au3>
 #include <File.au3>
