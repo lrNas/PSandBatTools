@@ -152,7 +152,6 @@ Func varDebug($configs)
 		"$span = '" & DllStructGetData($configs, "span") & "'" & @CRLF & _
 		"$cfFile = '" & DllStructGetData($configs, "cfFile") & "'" & @CRLF & _
 		"$depfile = '" & DllStructGetData($configs, "depfile") & "'")
-
 EndFunc
 
 Func installADGU($configs)
