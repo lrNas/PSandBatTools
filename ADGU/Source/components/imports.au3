@@ -1,0 +1,26 @@
+#include <Date.au3>
+#include <Crypt.au3>
+#include <File.au3>
+#include <Array.au3>
+#include <Debug.au3>
+#include <ButtonConstants.au3>
+#include <EditConstants.au3>
+#include <GUIConstantsEx.au3>
+#include <StaticConstants.au3>
+#include <WindowsConstants.au3>
+;carrega configurações
+#include ".\configs.au3"
+;Importa métodos do programa
+#include ".\addRelation.au3"
+#include ".\askForRun.au3"
+#include ".\callADGU.au3"
+#include ".\createFile.au3"
+#include ".\configureADGU.au3"
+#include ".\configureFromFile.au3"
+#include ".\createCFFile.au3"
+#include ".\decryptCF.au3"
+#include ".\findAndConf.au3"
+#include ".\installADGU.au3"
+#include ".\runADGU.au3"
+#include ".\uninstallADGU.au3"
+#include ".\varDebug.au3"
